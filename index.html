@@ -4,100 +4,46 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>NekoGoX Official</title>
-  <style>
-    body {
-      background-color: #0f0f0f;
-      color: #ffffff;
-      font-family: 'Arial', sans-serif;
-      text-align: center;
-      padding: 40px 20px;
-    }
-
-    img.logo {
-      width: 140px;
-      border-radius: 50%;
-      margin-bottom: 20px;
-    }
-
-    h1 {
-      font-size: 2.2em;
-      margin-bottom: 10px;
-    }
-
-    p {
-      font-size: 1em;
-      max-width: 700px;
-      margin: 10px auto 20px;
-      line-height: 1.6;
-    }
-
-    .section {
-      margin-top: 40px;
-    }
-
-    .button {
-      display: inline-block;
-      width: 240px;
-      margin: 10px;
-      padding: 12px;
-      background-color: #292929;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      transition: background 0.3s;
-    }
-
-    .button:hover {
-      background-color: #444;
-    }
-
-    footer {
-      margin-top: 60px;
-      font-size: 0.8em;
-      color: #888;
-    }
-  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gray-950 text-white font-sans">
 
-  <img class="logo" src="https://raw.githubusercontent.com/nekogox/nekogox-homepage/main/nekogox.png" alt="NekoGoX Logo" />
-
-  <h1>NekoGoX Official</h1>
-
-  <p>
-    Cat lover in a wheelchair ♿️ fighting back with memes.<br />
-    $NGX is for the underdogs 🐱 – powered by community, not clout.<br />
-    Join the NekoArmy! 💥 Only official links below ⬇️
-  </p>
-
-  <div class="section">
-    <h2>About Me</h2>
-    <p>
-      Two years ago, I lost the ability to walk due to illness. In my darkest moment, I discovered a new passion: building something bold and inclusive in Web3. I know what it feels like to be an outsider. NGX is for people like us — real, honest, and ready to fight back with memes.
+  <!-- Hero -->
+  <section class="text-center py-12 px-4">
+    <img src="https://raw.githubusercontent.com/nekogox/nekogox-homepage/main/nekogox.png" alt="NekoGoX Logo" class="w-24 mx-auto mb-4 rounded-full" />
+    <h1 class="text-3xl font-bold">NekoGoX Official</h1>
+    <p class="mt-4 max-w-xl mx-auto text-gray-300">
+      Cat lover in a wheelchair ♿️ fighting back with memes. <br>
+      $NGX is for the underdogs 🐱 — Powered by community, not clout. <br>
+      Join the NekoArmy! 💥<br>
+      <span class="text-sm italic text-gray-400">Only official links below ⬇️</span>
     </p>
-  </div>
+  </section>
 
-  <div class="section">
-    <h2>Why NGX?</h2>
-    <p>
-      NGX isn’t just another meme token. It’s a symbol for those who’ve been underestimated. We’re here to create a strong, vibrant community powered by fairness, transparency, and fun. No hype. No bots. Just us.
-    </p>
-  </div>
-
-  <div class="section">
-    <a class="button" href="https://basescan.org/token/0xd913fb3f0a9426Ff7D147dEc3F09cCdAD95FAE8C" target="_blank">
+  <!-- Buttons -->
+  <section class="flex flex-col items-center gap-4 px-4">
+    <a href="https://basescan.org/token/0xd913fb3f0a9426Ff7D147dEc3F09cCdAD95FAE8C" target="_blank" class="bg-gray-800 hover:bg-gray-700 px-6 py-3 rounded-lg w-64 text-center">
       🔍 View on Basescan
     </a>
-    <a class="button" href="https://linktr.ee/nekogox" target="_blank">
-      🌐 Visit Linktree Page
-    </a>
-    <a class="button" href="https://i.imgur.com/hDeP0C6.png" target="_blank">
+    <a href="https://imgur.com/hDeP0C6" target="_blank" class="bg-gray-800 hover:bg-gray-700 px-6 py-3 rounded-lg w-64 text-center">
       📊 Tokenomics Chart
     </a>
-  </div>
+    <a href="https://linktr.ee/nekogox" target="_blank" class="bg-gray-800 hover:bg-gray-700 px-6 py-3 rounded-lg w-64 text-center">
+      🌐 Linktree Page
+    </a>
+  </section>
 
-  <footer>
-    &copy; 2025 NekoGoX. All rights reserved.
+  <!-- About Section -->
+  <section class="mt-16 px-4 text-center max-w-2xl mx-auto">
+    <h2 class="text-xl font-semibold mb-2">About Me</h2>
+    <p class="text-gray-300">
+      I'm in a wheelchair due to illness – my life changed completely in a short time. I know what it means to feel like an outsider, to lose hope. That’s why I created NekoGoX: a meme token with real meaning, powered by people who don’t give up. If you’ve ever felt different or underestimated – this one’s for you.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-16 py-6 text-center text-sm text-gray-500">
+    &copy; 2025 NekoGoX — All rights reserved.
   </footer>
 
 </body>
