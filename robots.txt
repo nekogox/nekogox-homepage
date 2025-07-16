@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nekogox.com/sitemap.xml
