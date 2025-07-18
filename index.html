@@ -11,7 +11,7 @@
   <meta name="keywords" content="NekoGoX, NGX, meme coin, crypto, Base, underdog coin, decentralized, Web3, blockchain" />
   <meta name="author" content="NekoGoX Team" />
 
-  <!-- Open Graph (Social Media Preview) -->
+  <!-- Open Graph -->
   <meta property="og:title" content="NekoGoX | Meme Coin for Underdogs" />
   <meta property="og:description" content="A meme coin made by an outsider – for outsiders. Claws out. Community-powered." />
   <meta property="og:image" content="https://raw.githubusercontent.com/nekogox/nekogox-homepage/main/nekogox.png" />
@@ -24,10 +24,9 @@
   <meta name="twitter:description" content="A meme coin for the outsiders. Built on Base. Powered by community." />
   <meta name="twitter:image" content="https://raw.githubusercontent.com/nekogox/nekogox-homepage/main/nekogox.png" />
 
-  <!-- Favicon (optional) -->
+  <!-- Favicon -->
   <link rel="icon" href="https://raw.githubusercontent.com/nekogox/nekogox-homepage/main/nekogox.png" type="image/png" />
 
-  <!-- Style (unverändert aus deinem Code) -->
   <style>
     body {
       margin: 0;
@@ -37,10 +36,19 @@
       font-family: Arial, sans-serif;
     }
     header, section, footer {
-      padding: 40px 20px;
       max-width: 1000px;
       margin: auto;
       text-align: center;
+    }
+    header {
+      padding: 40px 20px;
+    }
+    section.section {
+      padding: 40px 20px;
+    }
+    section.tight-top {
+      padding-top: 30px;
+      padding-bottom: 40px;
     }
     header img.logo {
       width: 300px;
@@ -61,6 +69,7 @@
     p {
       font-size: 1.1em;
       line-height: 1.6;
+      margin-bottom: 20px;
     }
     a.button {
       display: inline-block;
@@ -88,6 +97,7 @@
       font-size: 0.9em;
       color: #cccccc;
       margin-top: 60px;
+      padding: 20px;
     }
     footer a {
       color: #FFE066;
@@ -100,17 +110,16 @@
 <header>
   <img src="https://raw.githubusercontent.com/nekogox/nekogox-homepage/main/nekogox.png" alt="NekoGoX Logo" class="logo" />
   <h1>NekoGoX</h1>
-  <p>Not your average meme coin. This one’s got claws. </p>
+  <p>Not your average meme coin. This one’s got claws.</p>
 
- <div>
-  <a class="button" href="https://basescan.org/token/0xd913fb3f0a9426Ff7D147dEc3F09cCdAD95FAE8C" target="_blank">🔍 View on Basescan</a>
-  <a class="button" href="https://linktr.ee/nekogox" target="_blank">🌐 Visit Linktree</a>
-  <a class="button" href="https://nekogox.github.io/nekogox-homepage/litepaper.html" target="_blank">📄 View Litepaper</a>
-</div>
+  <div>
+    <a class="button" href="https://basescan.org/token/0xd913fb3f0a9426Ff7D147dEc3F09cCdAD95FAE8C" target="_blank">🔍 View on Basescan</a>
+    <a class="button" href="https://linktr.ee/nekogox" target="_blank">🌐 Visit Linktree</a>
+    <a class="button" href="https://nekogox.github.io/nekogox-homepage/litepaper.html" target="_blank">📄 View Litepaper</a>
+  </div>
 </header>
 
-<!-- EINHEITLICHER CONTENT-ABSCHNITT -->
-<section style="padding-top: 40px; padding-bottom: 40px;">
+<section class="section">
   <h2>
     <span style="font-size: 1.5em; display: block;">🐾</span>
     About Me
@@ -147,8 +156,8 @@
     No whales. No insiders. Just equal opportunity and real vibes. Join us, whether you’re new to crypto or a seasoned underdog.
   </p>
 </section>
-  <!-- SEPARATE SECTION MIT GLEICHEM ABSTAND -->
-<section style="padding-top: 40px; padding-bottom: 40px;">
+
+<section class="tight-top">
   <h2>
     <span style="font-size: 1.5em; display: block;">🐾</span>
     NGX in Numbers
@@ -162,10 +171,10 @@
   </ul>
 </section>
 
-<section>
-  <!-- Tokenomics-Bild von Imgur eingebunden -->
+<section class="section">
   <img class="tokenomics" src="https://i.imgur.com/oE6EQt5.png" alt="Tokenomics Diagramm" />
 </section>
+
 <footer>
   Contact: <a href="mailto:hello@nekogox.com">hello@nekogox.com</a>
 </footer>
